@@ -59,7 +59,6 @@ module ActiveMerchant #:nodoc:
           :get_basic_personal_data_headers => get_basic_personal_data_headers,
           :get_advanced_personal_data_headers => get_advanced_personal_data_headers,
         }.update(options)
-        super
       end
 
       public
